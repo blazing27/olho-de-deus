@@ -14,3 +14,9 @@ cd olho-de-deus
 
 pip install -r requirements.txt
 python3 olho_de_deus_termux.py
+
+---
+ ## comando global
+
+echo 'alias olho="python3 $(pwd)/olho_de_deus_termux.py"' >> ~/.bashrc
+source ~/.bashrc
